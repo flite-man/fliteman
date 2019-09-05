@@ -2419,6 +2419,30 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-orange {
+  color: #fff;
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+}
+
+.btn-orange:hover {
+  color: #fff;
+  background-color: #e36802;
+  border-color: #e36802;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-green:hover {
+  color: #fff;
+  background-color: #23903c;
+  border-color: #23903c;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #007bff;
