@@ -1,0 +1,134 @@
+body {
+  overflow-x: hidden; }
+
+.bg-light {
+  background-color: #f2f4f9 !important; }
+
+.pb_icon-gradient:before {
+  background: #665fee;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -o-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+  background: linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.pb_slant-light,
+.pb_slant-orange,
+.pb_slant-yellow,
+.pb_slant-blue,
+.pb_slant-white {
+  position: relative; }
+  .pb_slant-light:after,
+  .pb_slant-orange:after,
+  .pb_slant-yellow:after,
+  .pb_slant-blue:after,
+  .pb_slant-white:after {
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    left: -50px;
+    height: 200px;
+    width: 130%;
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    z-index: 10; }
+  .pb_slant-light.pb_slant-reverse:after,
+  .pb_slant-orange.pb_slant-reverse:after,
+  .pb_slant-yellow.pb_slant-reverse:after,
+  .pb_slant-blue.pb_slant-reverse:after,
+  .pb_slant-white.pb_slant-reverse:after {
+    -webkit-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    transform: rotate(4deg);
+    left: -100px;
+    bottom: -140px; }
+
+.pb_slant-white:after {
+  background-color: #fff; }
+
+.pb_slant-light:after {
+    background-color: #f2f4f9; }
+
+.pb_slant-orange:after {
+    background-color: #fd7e14; }
+
+.pb_slant-yellow:after {
+    background-color: #ffc107; }
+
+.pb_slant-blue:after {
+    background-color: #007bff; }
+
+.pb_section {
+  padding: 10em 0; }
+
+.pb_cover_v3 a, .pb_xl_py_cover a {
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid transparent; }
+  .pb_cover_v3 a:hover, .pb_xl_py_cover a:hover {
+    color: white; }
+
+.pb_cover_v3 .btn, .pb_xl_py_cover .btn {
+  color: white; }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
