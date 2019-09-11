@@ -1135,8 +1135,8 @@ a {
         padding-right: 0 !important; } }
     .pb_navbar.scrolled .navbar-toggler {
       border: none;
-      color: rgba(0, 0, 0, 0.5);
-      border-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      border-color: #fff;
       cursor: pointer;
       padding-right: 0; }
     .pb_navbar.scrolled .nav-link {
