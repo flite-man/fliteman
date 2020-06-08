@@ -4207,6 +4207,10 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
+.navbar-brand img {
+  max-height: 40px;
+}
+
 .navbar-nav {
   display: -ms-flexbox;
   display: flex;
