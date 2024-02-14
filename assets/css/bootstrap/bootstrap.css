@@ -2443,6 +2443,43 @@ fieldset:disabled a.btn {
   border-color: #23903c;
 }
 
+
+.btn-red {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-red:hover {
+  color: #fff;
+  background-color: #a11d2a;
+  border-color: #a11d2a;
+}
+
+.btn-white {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-white:hover {
+  color: #fff;
+  background-color: #b0b0b0;
+  border-color: #b0b0b0;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color: #522b99;
+  border-color: #522b99;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #007bff;
@@ -6621,6 +6658,11 @@ button.bg-dark:focus {
 
 .bg-transparent {
   background-color: transparent !important;
+}
+
+
+.bg-black {
+  background-color: #000 !important;
 }
 
 .border {

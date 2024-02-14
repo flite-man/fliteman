@@ -948,7 +948,7 @@ input, select, textarea {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  background-color: #fff;
+  background-color: #000;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none; }
